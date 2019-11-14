@@ -8,14 +8,14 @@
 - 控制层所有的Controller都应当继承`BaseController`，便于通用的异常处理和相关信息的获取（如日志对象log)。
 
 ## 服务层
-
+asd
 - 服务层包名建议采用`service.模块.XxxService`格式定义。
 - 服务层建议不捕获异常（交给Controller处理），当出现业务异常时（如手机号码已被注册）应当抛出项目中自定义的BusinessException。
 
 ## 持久层
 
 - 持久层建议采用MyBatis Generator自动生成对应的Mapper和Model（实体类）
-
+dsfajkbsakdjhfbsjkdbfndejksnbfdjskfd
 ## Mybatis Generator
 1. 创建Maven build，并将`Commant Line`设置为`mybatis-generator:generate`。
 2. 修改`generator.properties`中的数据库配置，驱动包地址建议不进行修改，而通过将驱动包拷贝至`generator`目录下来完成。
